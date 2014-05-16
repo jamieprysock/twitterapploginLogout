@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    <h1>Coder Camps Comunity Messaging</h1>
+
+    <button class="wrapper1" id="logOut" onclick="gohome();">LOGOUT</button>
+    <br />
+
+    <div class="wrapper2" id="nameprofile"></div>
+    <div class="wrapper3" id="picPro"></div>
+    <button id="seeme" class ="wrapper4" onclick=" seeMe();">See My Profile</button>
+
+
+    <div id="othername">othername</div>
+    <div id="otherPic">otherpic</div>
+    <div id="othercontainer">their messages go here</div>
+    
+    <br />
+
+    <input class="wrapper5" type="text" id="newName"/> <span id="text1">Your First Name</span> <input class="wrapper6" type="text" id="newPic" /> <span id="text2">Copy and paste the url to your pic</span> 
+<button class="wrapper7" onclick="addNewUser();" id="newUser">Sign Up</button>
+    <br />
+
+    <input type="text" id="password" class="wrapper8" /><span id="password2"> User Name </span><span><button class="wrapper9" onclick="signin();" id="hiddenhtml">Sign In</button></span>
+    <br />
+    <br />
+    <div><input class="wrapper10" type="text" id="nameSearch" /><button onclick="getname();" class="wrapper11" id="searchPeople">Search For Friends</button></div>
+    <br />
+    <div><button class="wrapper12" id="follow">Follow</button></div>
+    <br />
+    <div><button class="wrapper13" id="retweet">Retweet</button></div>
+    <br />
+
+
+    <div><input class="wrapper14" type="text" id="messageInput" /> <button class="wrapper15" id="postNow" onclick="postMessage();">Post Message </button></div>
+
+
+    <div class="wrapper16" id="container"></div>
+
+    <div class="wrapper17">Property of Jamie Prysock and Isaiah Grey</div>
+
+
+    <script src="searchAndFollow.js"></script>
+   
+    <script src="loginLogout.js"></script>
+</body>
+</html>
